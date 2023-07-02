@@ -21,7 +21,7 @@ logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 LOGGER = logging.getLogger("FallenMusic")
 
 app = Client(
-    "RaviVeyi Music Bot",
+    "Vüqar Music Bot",
     config.API_ID,
     config.API_HASH,
     bot_token=config.BOT_TOKEN,
