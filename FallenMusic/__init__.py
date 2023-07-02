@@ -28,7 +28,7 @@ app = Client(
 )
 
 app2 = Client(
-    "RaviVeyi Music Bot Assistent",
+    "Vüqar Music Bot Assistent",
     api_id=config.API_ID,
     api_hash=config.API_HASH,
     session_string=str(config.SESSION),
