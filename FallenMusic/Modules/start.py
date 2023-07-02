@@ -79,3 +79,11 @@ async def fallen_st(_, message: Message):
             ),
             reply_markup=InlineKeyboardMarkup(gp_buttons),
         )
+@app.on_callback_query(filters.regex("ucsxdastartmsj"))
+async def ucsxdastartmsj(_, query: CallbackQuery):
+    await query.edit_message_text(f"──────────────────────\nSalam {query.from_user.mention} \n\nV͇ I͇ P͇  𝙳ə𝚜𝚝ə𝚔 𝚟ə 𝚜𝚎𝚛𝚟𝚎𝚛 𝙾𝚄𝚁 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝚝ə𝚛ə𝚏𝚒𝚗𝚍ə𝚗 𝚝ə𝚖𝚒𝚗 𝚎𝚍𝚒𝚕𝚒𝚛 𝚜𝚒𝚣𝚍ə 𝚋𝚒𝚣𝚍ə𝚗 𝚍ə𝚜𝚝ə𝚔 𝚊𝚕𝚖𝚊𝚚 üçü𝚗 𝚕𝚒𝚗𝚔ə 𝚔𝚒𝚕𝚒𝚔𝚕ə𝚢𝚒𝚗 ⚔️⚔️ ヅ\n──────────────────────", 
+    reply_markup=InlineKeyboardMarkup([
+    [
+    InlineKeyboardButton('OUR Support', url= "https://t.me/OUR_SupportGroup"),
+    InlineKeyboardButton("OUR Kanal", url= "https://t.me/OUR_SupportKanal")
+    ]]))
