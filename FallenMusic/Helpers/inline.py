@@ -34,9 +34,9 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="๏ᴜʀ ᴤᴜᴘᴘᴏʀᴛ ᴅəᴤᴛəᴋ", url="https://t.me/OUR_SupportKanal"
+            text="☛ʙᴏᴛ ᴅəᴤᴅəᴋʟəɴɪʀ!! ✘", callback_data="ucsxdastartmsj"
         ),
-        InlineKeyboardButton(text=" İnkişaf etdirici ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Bot Sahibi", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -54,9 +54,9 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="๏ᴜʀ ᴤᴜᴘᴘᴏʀᴛ ᴅəᴤᴛəᴋ", url="https://t.me/OUR_SupportKanal"
+            text="☛ʙᴏᴛ ᴅəᴤᴅəᴋʟəɴɪʀ!! ✘", callback_data="ucsxdastartmsj"
         ),
-        InlineKeyboardButton(text="☠ İnkişaf etdirici", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Bot Sahibi", user_id=config.OWNER_ID),
     ],
 ]
 
