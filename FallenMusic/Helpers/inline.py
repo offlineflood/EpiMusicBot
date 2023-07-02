@@ -34,7 +34,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💡 Mənbə", url="https://t.me/DegGixM"
+            text="๏ᴜʀ ᴤᴜᴘᴘᴏʀᴛ ᴅəᴤᴛəᴋ", url="https://t.me/OUR_SupportKanal"
         ),
         InlineKeyboardButton(text=" İnkişaf etdirici ", user_id=config.OWNER_ID),
     ],
@@ -54,7 +54,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💡 Mənbə", url="https://t.me/DegGixM"
+            text="๏ᴜʀ ᴤᴜᴘᴘᴏʀᴛ ᴅəᴤᴛəᴋ", url="https://t.me/OUR_SupportKanal"
         ),
         InlineKeyboardButton(text="☠ İnkişaf etdirici", user_id=config.OWNER_ID),
     ],
