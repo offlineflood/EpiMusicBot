@@ -13,15 +13,17 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("OWNER_ID"))
 
-PING_IMG = getenv("PING_IMG", "https://graph.org/file/83aa2ccb6d3feabcf5686.jpg")
-START_IMG = getenv("START_IMG", "https://graph.org/file/83aa2ccb6d3feabcf5686.jpg")
+PING_IMG = getenv("PING_IMG")
+START_IMG = getenv("START_IMG")
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/WinstonBotSupport")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WinstonResmi")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6252136291").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
+SohbetQrupu = getenv("SohbetQrupu")
 
-FAILED = "https://graph.org/file/83aa2ccb6d3feabcf5686.jpg"
+FAILED = getenv("FAILED")
+
