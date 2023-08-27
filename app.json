@@ -31,6 +31,11 @@
         "value": "",
         "required": true
       },
+        "SohbetQrupu": {
+        "description": "@Telegram-dan piroqram v2 sim seansı",
+        "value": "",
+        "required": true
+      },
         "PING_IMG": {
         "description": "@Telegram-dan piroqram v2 sim seansı",
         "value": "",
