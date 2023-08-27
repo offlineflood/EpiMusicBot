@@ -34,7 +34,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☛ʙᴏᴛ ᴅəᴤᴅəᴋʟəɴɪʀ!! ✘", callback_data="ucsxdastartmsj"
+            text="Söhbət Qrupu", url=config.SohbetQrupu
         ),
         InlineKeyboardButton(text="Bot Sahibi", user_id=config.OWNER_ID),
     ],
@@ -54,8 +54,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☛ʙᴏᴛ ᴅəᴤᴅəᴋʟəɴɪʀ!! ✘", callback_data="ucsxdastartmsj"
-        ),
+            text="Söhbət Qrupu", url=config.SohbetQrupu"),
         InlineKeyboardButton(text="Bot Sahibi", user_id=config.OWNER_ID),
     ],
 ]
