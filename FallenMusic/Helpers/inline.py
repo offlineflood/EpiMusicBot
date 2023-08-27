@@ -54,7 +54,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Söhbət Qrupu", url=config.SohbetQrupu"),
+            text="Söhbət Qrupu", url=config.SohbetQrupu),
         InlineKeyboardButton(text="Bot Sahibi", user_id=config.OWNER_ID),
     ],
 ]
